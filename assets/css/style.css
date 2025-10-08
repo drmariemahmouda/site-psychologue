@@ -1,0 +1,13 @@
+body{font-family:Arial,sans-serif;margin:0;padding:0;background:#fbfbf8;color:#253237;line-height:1.5}
+.container{max-width:1100px;margin:0 auto;padding:2rem}
+header{background:#fff;padding:1rem 0;border-bottom:1px solid #e6e6e6}
+header h1{margin:0;color:#7fb08c}
+nav a{margin-left:1rem;text-decoration:none;color:#37494a}
+nav a.btn{padding:0.5rem 0.9rem;background:#b7d8c6;color:#fff;border-radius:999px;margin-left:1rem}
+.hero{height:50vh;display:flex;align-items:center;justify-content:center;background:#b7d8c6;color:#fff;text-align:center}
+.hero h2{font-size:2rem}
+section.intro, main.container{padding:2rem}
+footer{background:#fff;text-align:center;padding:1rem;color:#718186}
+.contact-form label{display:block;margin-bottom:0.8rem}
+.contact-form input, .contact-form textarea{width:100%;padding:0.6rem;border-radius:8px;border:1px solid #e6e6e6;margin-bottom:1rem}
+.btn{display:inline-block;padding:0.6rem 1rem;border-radius:10px;background:#7fb08c;color:#fff;text-decoration:none}
