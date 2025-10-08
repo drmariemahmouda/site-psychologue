@@ -1,1 +1,44 @@
-<!doctype html><html lang='fr'><head><meta charset='utf-8'><title>Contact</title></head><body>Page Contact</body></html>
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact - Docteure Mariem Ahmouda</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>Docteure Mariem Ahmouda</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="psychotherapie.html">Psychothérapie</a>
+      <a href="parentalite.html">Parentalité</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main class="container">
+  <h2>Contact</h2>
+  <p>Adresse : 26 Cours Docteur Long, 69003 Lyon</p>
+  <p>Téléphone : <a href="tel:+33669347469">06 69 34 74 69</a></p>
+  <p>Email : <a href="mailto:drmariemahmouda@gmail.com">drmariemahmouda@gmail.com</a></p>
+  <section class="contact-form">
+    <form id="contactForm" action="FORM_ACTION" method="POST">
+      <label>Nom complet <input type="text" name="name" required></label>
+      <label>Email <input type="email" name="email" required></label>
+      <label>Téléphone <input type="tel" name="phone"></label>
+      <label>Message <textarea name="message" rows="6" required></textarea></label>
+      <input type="hidden" name="_replyto" value="drmariemahmouda@gmail.com">
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <div class="container">
+    <p>© <span id="year4"></span> Docteure Mariem Ahmouda - Cabinet à Lyon</p>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
